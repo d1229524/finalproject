@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pinterest Login Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="login-bg">
+
+<div class="navbar">
+    <div class="navbar-left">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" class="nav-logo">
+        <span class="nav-title">Pinterest</span>
+    </div>
+    <div class="navbar-right">
+        <a href="https://newsroom.pinterest.com/company/?utm_source=redirect_aboutsite&utm_medium=organic-pinterest">About</a>
+        <a href="https://business.pinterest.com/">Businesses</a>
+        <a href="https://create.pinterest.com/">Create</a>
+        <a href="https://newsroom.pinterest.com/?utm_campaign=pinterest_homepage_blogicon_all_evergreen&utm_medium=organic-pinterest&utm_source=organicpins_pinsite_homepageicon">News</a>
+        <a href="#login" class="login-btn">Log in</a>
+        <a href="#signup" class="signup-btn">Sign up</a>
+    </div>
+</div>
+
+<section id="login" class="section login-section">
+    <div class="container">
+        <div class="left-side">
+            <h1>Log in to get your ideas</h1>
+        </div>
+        <div class="right-side">
+            <div class="login-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" class="logo">
+                <h2>Welcome to Pinterest</h2>
+                <input type="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <a href="#" class="forgot">Forgot your password?</a>
+                <button onclick="fakeLogin()">Log in</button>
+                <div class="divider">OR</div>
+                <button class="fb">Continue with Facebook</button>
+                <button class="google">Continue as Guest</button>
+                <p class="signup">Not on Pinterest yet? <a href="#">Sign up</a></p>
+                <p class="business">Are you a business? <a href="#">Get started here!</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section hero">
+    <h1>Get your next <br><span>home decor idea</span></h1>
+</section>
+
+<section id="search" class="section yellow">
+    <div class="left-search">
+        <img src="searchimg.png" class="stack-img" alt="">
+    </div>
+    <div class="right-text">
+        <h2>Search for an idea</h2>
+        <p>What do you want to try next? Think of something you’re into—like “easy chicken dinner”—and see what you find.</p>
+        <button>Explore</button>
+    </div>
+</section>
+
+<section id="save" class="section mint">
+    <div class="left-text">
+        <h2>Save ideas you like</h2>
+        <p>Collect your favorites so you can get back to them later.</p>
+        <button>Explore</button>
+    </div>
+    <div class="right-save">
+        <img src="saveimg.png" alt="" class="rounded">
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
